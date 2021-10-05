@@ -6,7 +6,9 @@
 ## 使い方
 exeファイル内の.env.exampleを.envにrenameします。
 
-ファイルにDiscordの投稿したいチャンネルのWebHookURLを保存します。
+.envのweb_hook_urlにDiscordの投稿したいチャンネルのWebHookURLを保存します。
+
+![](img/webhook.png)
 
 main.exeファイルを開き、startを押すとDiscordに開始時間が投稿され、同時にExcel
 のTimeSheetに開始時間が記録されます。
