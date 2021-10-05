@@ -67,7 +67,7 @@ layout = [[
     )],
     [sg.Button('start', key='startBtn', size=(15, 2)), sg.Button('end', key='endBtn', size=(15, 2))]]
 
-window = sg.Window('Recursion Time Stamp', layout, resizable=True, finalize=True)
+window = sg.Window('Time Stamp', layout, resizable=True, finalize=True)
 
 refresh_2d_list_from_xl()
 
