@@ -7,7 +7,7 @@ import PySimpleGUI as sg
 import xlwings as xw
 
 # .env
-env_json = json.load(open("../.env", 'r', encoding="utf-8_sig"))
+env_json = json.load(open(".env", 'r', encoding="utf-8_sig"))
 
 # excelOpen
 book = xw.Book("./Record.xlsx")
